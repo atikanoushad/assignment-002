@@ -47,7 +47,15 @@ nav li a{
         display: none;
     }
     .navbar{
+        display: flex;
+        justify-content: space-between;
         margin: 0px;
+    }
+    nav li{
+        margin-right: 0px;
+    }
+    .shop{
+        align-items: flex-end;
     }
     
 }
@@ -203,9 +211,19 @@ nav li a{
  
 }
 /*latest deals*/
+.latest{
+    margin-left: 150px;
+    margin-right: 150px;
+}
 .latest-deals{
     margin-top: -300px;
     text-align: center;
+    
+}
+.ful{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .ld-header{
     font-size: 50px;
@@ -215,8 +233,89 @@ nav li a{
 .ld-text{
     font-size: 22px;
     text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
 }
+.bloom-plant{
+     background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(../assets/deal-bloom.png);
+    border-radius: 8px;
+    width: 367px;
+    height: 201px;
+    text-align: center;
+}
+.bloom{
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bloom-plant a{
+    color: white;
+    font-weight: 600;
+}
+.ana-plant{
+     background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(../assets/deal-ana.png);
+    border-radius: 8px;
+    width: 367px;
+    height: 201px;
+    text-align: center;
+}
+.ana{
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ana-plant a{
+    color: white;
+    font-weight: 600;
+}
+.zabo-plant{
+     background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(../assets/deal-zabo.png);
+    z-index: 1;
+    border-radius: 8px;
+    width: 754px;
+    height: 405px;
+    text-align: center;
+    margin-top: 25px;
+}
+.zabo{
+    padding-top: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.zabo-plant a{
+    color: white;
+    font-weight: 600;
+}
+
+
+
 @media screen and (max-width:576px) {
+    .latest{
+        margin: 0px;
+    }
+    .latest-deals{
+        margin-top: 10px;
+    }
+    .ful{
+        display: flex;
+        flex-direction: column;
+    }
+    .ana-plant, .bloom-plant, .zabo-plant{
+        width: 366px;
+        height: 206px;
+        margin-bottom: 10px;
+
+    }
+    .zabo, .ana, .bloom{
+        font-size: 20px;
+        font-weight: bold;
+    }
   .latest-deals{
     margin-top: 0px;
   }  
