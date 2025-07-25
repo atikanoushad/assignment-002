@@ -1,0 +1,126 @@
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-gray{
+    color: gray;
+
+}
+.text-black{
+    color: black;
+}
+.text-orange{
+    color: orange;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px 120px 150px;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+}
+nav li a{
+    text-decoration: none   ;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.shop{
+    display: flex;
+    align-items: center;
+}
+
+/*banner*/
+.banner{
+    margin: 0px 150px 226px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-header{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+.banner-des{
+    font-size: 22px;
+}
+/*cards*/
+.cards{
+    margin: 0 150px 210.12px 150px;
+}
+.card-text{
+    text-align: center;
+}
+.card-header{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.card-des{
+    text-align: center;
+    font-size: 22px;
+}
+/*card-items*/
+.card-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.card-item-text, .card-item-price{
+    text-align: center;
+}
+.card-item-text{
+    font-size: 22px;
+    font-weight: 400;
+}
+.card-item-price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.card-button{
+    background-color: #E95A08;
+    color: white;
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+/*plant lovers*/
+.plant-lovers{
+    margin: 0px 150px 134px 150px ;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    transform: translate(350px, -700px);
+}
+.lovers-text{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.lovers-header{
+    font-size: 50px;
+    font-weight: bold;
+   margin-bottom: 0px;
+ 
+}
+.lovers-text ul li{
+    margin-bottom: 10px;
+}
