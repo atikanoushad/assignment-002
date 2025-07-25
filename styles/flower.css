@@ -103,7 +103,9 @@ nav li a{
     display: flex;
     justify-content: center;
     gap: 50px;
+    
 }
+
 .badge{
     width: 286px;
     height: 286px;
@@ -123,4 +125,48 @@ nav li a{
 }
 .lovers-text ul li{
     margin-bottom: 10px;
+}
+
+/*latest deals*/
+.latest-deals{
+    margin-top: -300px;
+    text-align: center;
+}
+.ld-header{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.ld-text{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/*form*/
+.form{
+    background-image: url(../assets/news-letter-bg.png);
+   
+    width: 1440px;
+    height: 533px;
+    text-align: center;
+}
+.join-bunch{
+    color: white;
+   padding-top: 175px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.btn2{
+    background-color:rgba(233, 90, 8, 1) ;
+    color: white;
+    border: 0;
+    height: 50px;
+    width: 186px;
+}
+.mail{
+    color:rgba(137, 135, 161, 1) ;
+    height: 43px;
+    width: 644px;
+    font-size: small;
 }
